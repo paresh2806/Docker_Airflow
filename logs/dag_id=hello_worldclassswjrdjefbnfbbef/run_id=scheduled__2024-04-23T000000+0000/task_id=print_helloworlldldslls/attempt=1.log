@@ -1,0 +1,14 @@
+[2024-04-24T05:11:17.908+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hello_worldclassswjrdjefbnfbbef.print_helloworlldldslls scheduled__2024-04-23T00:00:00+00:00 [queued]>
+[2024-04-24T05:11:17.912+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hello_worldclassswjrdjefbnfbbef.print_helloworlldldslls scheduled__2024-04-23T00:00:00+00:00 [queued]>
+[2024-04-24T05:11:17.912+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-24T05:11:17.919+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): print_helloworlldldslls> on 2024-04-23 00:00:00+00:00
+[2024-04-24T05:11:17.923+0000] {standard_task_runner.py:60} INFO - Started process 69 to run task
+[2024-04-24T05:11:17.925+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'hello_worldclassswjrdjefbnfbbef', 'print_helloworlldldslls', 'scheduled__2024-04-23T00:00:00+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/hellllllloooo.py', '--cfg-path', '/tmp/tmpyw4s_v6n']
+[2024-04-24T05:11:17.926+0000] {standard_task_runner.py:88} INFO - Job 21: Subtask print_helloworlldldslls
+[2024-04-24T05:11:17.949+0000] {task_command.py:423} INFO - Running <TaskInstance: hello_worldclassswjrdjefbnfbbef.print_helloworlldldslls scheduled__2024-04-23T00:00:00+00:00 [running]> on host 9021aacb340e
+[2024-04-24T05:11:17.982+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='hello_worldclassswjrdjefbnfbbef' AIRFLOW_CTX_TASK_ID='print_helloworlldldslls' AIRFLOW_CTX_EXECUTION_DATE='2024-04-23T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-23T00:00:00+00:00'
+[2024-04-24T05:11:17.983+0000] {logging_mixin.py:188} INFO - Hello, World!
+[2024-04-24T05:11:17.984+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-04-24T05:11:17.987+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=hello_worldclassswjrdjefbnfbbef, task_id=print_helloworlldldslls, execution_date=20240423T000000, start_date=20240424T051117, end_date=20240424T051117
+[2024-04-24T05:11:18.017+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-24T05:11:18.025+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

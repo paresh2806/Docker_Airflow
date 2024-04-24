@@ -1,0 +1,34 @@
+[2024-04-24T09:56:20.488+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: download_rocket_launches.get_pictures manual__2024-04-24T09:56:08.648574+00:00 [queued]>
+[2024-04-24T09:56:20.493+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: download_rocket_launches.get_pictures manual__2024-04-24T09:56:08.648574+00:00 [queued]>
+[2024-04-24T09:56:20.493+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-04-24T09:56:20.500+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): get_pictures> on 2024-04-24 09:56:08.648574+00:00
+[2024-04-24T09:56:20.505+0000] {standard_task_runner.py:60} INFO - Started process 827 to run task
+[2024-04-24T09:56:20.507+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'download_rocket_launches', 'get_pictures', 'manual__2024-04-24T09:56:08.648574+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/Example_dag.py', '--cfg-path', '/tmp/tmph757qbeq']
+[2024-04-24T09:56:20.508+0000] {standard_task_runner.py:88} INFO - Job 24: Subtask get_pictures
+[2024-04-24T09:56:20.533+0000] {task_command.py:423} INFO - Running <TaskInstance: download_rocket_launches.get_pictures manual__2024-04-24T09:56:08.648574+00:00 [running]> on host 99514668da53
+[2024-04-24T09:56:20.568+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='download_rocket_launches' AIRFLOW_CTX_TASK_ID='get_pictures' AIRFLOW_CTX_EXECUTION_DATE='2024-04-24T09:56:08.648574+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-24T09:56:08.648574+00:00'
+[2024-04-24T09:56:20.569+0000] {logging_mixin.py:188} INFO - Current working directory: /opt/***
+[2024-04-24T09:56:20.570+0000] {logging_mixin.py:188} INFO - Directories in the current directory:
+[2024-04-24T09:56:20.570+0000] {logging_mixin.py:188} INFO - dags
+[2024-04-24T09:56:20.570+0000] {logging_mixin.py:188} INFO - logs
+[2024-04-24T09:56:20.570+0000] {logging_mixin.py:188} INFO - plugins
+[2024-04-24T09:56:20.570+0000] {logging_mixin.py:188} INFO - config
+[2024-04-24T09:56:20.571+0000] {logging_mixin.py:188} INFO - images
+[2024-04-24T09:56:24.223+0000] {logging_mixin.py:188} INFO - target file name === /images/falcon2520925_image_20221009234147.png
+[2024-04-24T09:56:24.223+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/Example_dag.py", line 46, in _get_pictures
+    with open(target_file, "wb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/images/falcon2520925_image_20221009234147.png'
+[2024-04-24T09:56:24.229+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=download_rocket_launches, task_id=get_pictures, execution_date=20240424T095608, start_date=20240424T095620, end_date=20240424T095624
+[2024-04-24T09:56:24.236+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 24 for task get_pictures ([Errno 2] No such file or directory: '/images/falcon2520925_image_20221009234147.png'; 827)
+[2024-04-24T09:56:24.249+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-04-24T09:56:24.262+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check
