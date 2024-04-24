@@ -18,14 +18,14 @@ dag = DAG(
 
 download_launches = BashOperator( 
  task_id="download_launches", 
- bash_command="curl -o /src/launches.json -L 'https://ll.thespacedevs.com/2.0.0/launch/upcoming'",
+ bash_command="curl -o /tmp/launches.json -L 'https://ll.thespacedevs.com/2.0.0/launch/upcoming'",
  dag=dag,
 )
 
 def _get_pictures(): 
-     # Ensure directory exists relative to the current working directory
+    # Ensure directory exists
     images_dir = os.path.join(os.getcwd(), "images")
-    pathlib.Path(images_dir).mkdir(parents=True, exist_ok=True)
+    os.makedirs(images_dir, exist_ok=True)
     
     # Print the current working directory
     print("Current working directory:", os.getcwd())
@@ -36,7 +36,7 @@ def _get_pictures():
         print(directory)
 
     # Download all pictures in launches.json
-    with open("/src/launches.json") as f:
+    with open("/tmp/launches.json") as f:
         launches = json.load(f)
         image_urls = [launch["image"] for launch in launches["results"]]
         for image_url in image_urls:
