@@ -61,3 +61,108 @@
 [2024-05-02T06:15:19.129+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:15:19.129+0000] {dag.py:3047} INFO - Sync 1 DAGs
 [2024-05-02T06:15:19.140+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:15:19.140+0000] {dag.py:3834} INFO - Setting next_dagrun for download_rocket_launches to None, run_after=None
 [2024-05-02T06:15:19.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Example_dag.py took 0.073 seconds
+[2024-05-02T06:15:49.337+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:15:49.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Example_dag.py for tasks to queue
+[2024-05-02T06:15:49.339+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:15:49.339+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:15:49.359+0000] {processor.py:840} INFO - DAG(s) 'download_rocket_launches' retrieved from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:15:49.383+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:15:49.383+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-02T06:15:49.395+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:15:49.395+0000] {dag.py:3834} INFO - Setting next_dagrun for download_rocket_launches to None, run_after=None
+[2024-05-02T06:15:49.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Example_dag.py took 0.083 seconds
+[2024-05-02T06:16:19.669+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:16:19.670+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Example_dag.py for tasks to queue
+[2024-05-02T06:16:19.671+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:16:19.671+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:16:19.683+0000] {processor.py:840} INFO - DAG(s) 'download_rocket_launches' retrieved from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:16:19.705+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:16:19.705+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-02T06:16:19.716+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:16:19.716+0000] {dag.py:3834} INFO - Setting next_dagrun for download_rocket_launches to None, run_after=None
+[2024-05-02T06:16:19.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Example_dag.py took 0.072 seconds
+[2024-05-02T06:16:50.017+0000] {processor.py:161} INFO - Started process (PID=227) to work on /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:16:50.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Example_dag.py for tasks to queue
+[2024-05-02T06:16:50.019+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:16:50.018+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:16:50.032+0000] {processor.py:840} INFO - DAG(s) 'download_rocket_launches' retrieved from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:16:50.055+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:16:50.054+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-02T06:16:50.065+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:16:50.065+0000] {dag.py:3834} INFO - Setting next_dagrun for download_rocket_launches to None, run_after=None
+[2024-05-02T06:16:50.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Example_dag.py took 0.073 seconds
+[2024-05-02T06:17:20.254+0000] {processor.py:161} INFO - Started process (PID=235) to work on /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:17:20.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Example_dag.py for tasks to queue
+[2024-05-02T06:17:20.256+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:17:20.256+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:17:20.273+0000] {processor.py:840} INFO - DAG(s) 'download_rocket_launches' retrieved from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:17:20.295+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:17:20.295+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-02T06:17:20.307+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:17:20.306+0000] {dag.py:3834} INFO - Setting next_dagrun for download_rocket_launches to None, run_after=None
+[2024-05-02T06:17:20.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Example_dag.py took 0.078 seconds
+[2024-05-02T06:17:50.572+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:17:50.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Example_dag.py for tasks to queue
+[2024-05-02T06:17:50.574+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:17:50.574+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:17:50.588+0000] {processor.py:840} INFO - DAG(s) 'download_rocket_launches' retrieved from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:17:50.613+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:17:50.612+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-02T06:17:50.624+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:17:50.624+0000] {dag.py:3834} INFO - Setting next_dagrun for download_rocket_launches to None, run_after=None
+[2024-05-02T06:17:50.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Example_dag.py took 0.079 seconds
+[2024-05-02T06:18:20.829+0000] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:18:20.830+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Example_dag.py for tasks to queue
+[2024-05-02T06:18:20.832+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:18:20.831+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:18:20.844+0000] {processor.py:840} INFO - DAG(s) 'download_rocket_launches' retrieved from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:18:20.864+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:18:20.864+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-02T06:18:20.873+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:18:20.873+0000] {dag.py:3834} INFO - Setting next_dagrun for download_rocket_launches to None, run_after=None
+[2024-05-02T06:18:20.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Example_dag.py took 0.068 seconds
+[2024-05-02T06:18:51.105+0000] {processor.py:161} INFO - Started process (PID=259) to work on /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:18:51.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Example_dag.py for tasks to queue
+[2024-05-02T06:18:51.108+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:18:51.107+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:18:51.121+0000] {processor.py:840} INFO - DAG(s) 'download_rocket_launches' retrieved from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:18:51.146+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:18:51.146+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-02T06:18:51.157+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:18:51.157+0000] {dag.py:3834} INFO - Setting next_dagrun for download_rocket_launches to None, run_after=None
+[2024-05-02T06:18:51.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Example_dag.py took 0.078 seconds
+[2024-05-02T06:19:21.345+0000] {processor.py:161} INFO - Started process (PID=267) to work on /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:19:21.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Example_dag.py for tasks to queue
+[2024-05-02T06:19:21.348+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:19:21.347+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:19:21.363+0000] {processor.py:840} INFO - DAG(s) 'download_rocket_launches' retrieved from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:19:21.388+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:19:21.388+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-02T06:19:21.398+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:19:21.398+0000] {dag.py:3834} INFO - Setting next_dagrun for download_rocket_launches to None, run_after=None
+[2024-05-02T06:19:21.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Example_dag.py took 0.075 seconds
+[2024-05-02T06:19:51.607+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:19:51.607+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Example_dag.py for tasks to queue
+[2024-05-02T06:19:51.609+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:19:51.608+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:19:51.623+0000] {processor.py:840} INFO - DAG(s) 'download_rocket_launches' retrieved from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:19:51.646+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:19:51.646+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-02T06:19:51.657+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:19:51.657+0000] {dag.py:3834} INFO - Setting next_dagrun for download_rocket_launches to None, run_after=None
+[2024-05-02T06:19:51.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Example_dag.py took 0.076 seconds
+[2024-05-02T06:20:21.974+0000] {processor.py:161} INFO - Started process (PID=315) to work on /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:20:21.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Example_dag.py for tasks to queue
+[2024-05-02T06:20:21.976+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:20:21.976+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:20:21.991+0000] {processor.py:840} INFO - DAG(s) 'download_rocket_launches' retrieved from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:20:22.016+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:20:22.015+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-02T06:20:22.027+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:20:22.027+0000] {dag.py:3834} INFO - Setting next_dagrun for download_rocket_launches to None, run_after=None
+[2024-05-02T06:20:22.051+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Example_dag.py took 0.079 seconds
+[2024-05-02T06:20:52.209+0000] {processor.py:161} INFO - Started process (PID=323) to work on /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:20:52.210+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Example_dag.py for tasks to queue
+[2024-05-02T06:20:52.211+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:20:52.211+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:20:52.225+0000] {processor.py:840} INFO - DAG(s) 'download_rocket_launches' retrieved from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:20:52.249+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:20:52.249+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-02T06:20:52.261+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:20:52.260+0000] {dag.py:3834} INFO - Setting next_dagrun for download_rocket_launches to None, run_after=None
+[2024-05-02T06:20:52.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Example_dag.py took 0.076 seconds
+[2024-05-02T06:21:22.480+0000] {processor.py:161} INFO - Started process (PID=332) to work on /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:21:22.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Example_dag.py for tasks to queue
+[2024-05-02T06:21:22.482+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:21:22.482+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:21:22.496+0000] {processor.py:840} INFO - DAG(s) 'download_rocket_launches' retrieved from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:21:22.518+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:21:22.517+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-02T06:21:22.528+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:21:22.528+0000] {dag.py:3834} INFO - Setting next_dagrun for download_rocket_launches to None, run_after=None
+[2024-05-02T06:21:22.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Example_dag.py took 0.070 seconds
+[2024-05-02T06:21:52.805+0000] {processor.py:161} INFO - Started process (PID=340) to work on /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:21:52.806+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Example_dag.py for tasks to queue
+[2024-05-02T06:21:52.808+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:21:52.807+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:21:52.825+0000] {processor.py:840} INFO - DAG(s) 'download_rocket_launches' retrieved from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:21:52.850+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:21:52.850+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-02T06:21:52.863+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:21:52.863+0000] {dag.py:3834} INFO - Setting next_dagrun for download_rocket_launches to None, run_after=None
+[2024-05-02T06:21:52.888+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Example_dag.py took 0.085 seconds
+[2024-05-02T06:22:23.041+0000] {processor.py:161} INFO - Started process (PID=347) to work on /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:22:23.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Example_dag.py for tasks to queue
+[2024-05-02T06:22:23.045+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:22:23.045+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:22:23.063+0000] {processor.py:840} INFO - DAG(s) 'download_rocket_launches' retrieved from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:22:23.091+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:22:23.091+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-02T06:22:23.103+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:22:23.103+0000] {dag.py:3834} INFO - Setting next_dagrun for download_rocket_launches to None, run_after=None
+[2024-05-02T06:22:23.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Example_dag.py took 0.088 seconds
+[2024-05-02T06:22:53.318+0000] {processor.py:161} INFO - Started process (PID=355) to work on /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:22:53.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Example_dag.py for tasks to queue
+[2024-05-02T06:22:53.320+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:22:53.320+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:22:53.336+0000] {processor.py:840} INFO - DAG(s) 'download_rocket_launches' retrieved from /opt/airflow/dags/Example_dag.py
+[2024-05-02T06:22:53.361+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:22:53.360+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-02T06:22:53.372+0000] {logging_mixin.py:188} INFO - [2024-05-02T06:22:53.371+0000] {dag.py:3834} INFO - Setting next_dagrun for download_rocket_launches to None, run_after=None
+[2024-05-02T06:22:53.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Example_dag.py took 0.079 seconds
