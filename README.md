@@ -6,7 +6,7 @@ Airflow Data Pipeline is a project aimed at demonstrating the setup and usage of
 
 ## Problem Statement
 
-![Alt Text](images\task_2_overview.png "Apache Airflow Lifecycle")
+![Alt Text](https://github.com/paresh2806/Docker_Airflow/blob/main/images/task_2_overview.png "Apache Airflow Lifecycle")
 
 Imagine you have a task to hit an API endpoint that provides various data in JSON format, including details about upcoming space launches. You use the following command to retrieve the data:
 ```bash
@@ -82,19 +82,19 @@ docker-compose down -v
 Here there are 2 Examples are stated based on complaxity
 example dags can be found in ``/dags`` folder
 ### 1. Task- 1 (Print Hello From user)
-![airflow task_1 (http://localhost:8080/)](images\task_1.png)
+![airflow task_1 (http://localhost:8080/)](https://github.com/paresh2806/Docker_Airflow/blob/main/images/task_1.png)
 
 which genrally prints the statement pre-written by user
 
-![airflow task_1 (http://localhost:8080/)](images\task_1_res.png)
+![airflow task_1 (http://localhost:8080/)](https://github.com/paresh2806/Docker_Airflow/blob/main/images/task_1_res.png)
 
 ### 2. Task -2 (Fetch >> Download >> Notify )
 
-![airflow task_1 (http://localhost:8080/)](images\task_2.png)
+![airflow task_1 (http://localhost:8080/)](https://github.com/paresh2806/Docker_Airflow/blob/main/images/task_2.png)
 
 Over iteraring multiple dag invokes we got certain results    
 
-![airflow task_1 (http://localhost:8080/)](images\Capture-3.png)
+![airflow task_1 (http://localhost:8080/)](https://github.com/paresh2806/Docker_Airflow/blob/main/images/Capture-3.png)
 
 ## Contributing
 
