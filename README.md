@@ -53,9 +53,9 @@ Your ultimate goal is not just to retrieve this data, but also to notify the API
 ```bash
 git clone https://github.com/paresh2806/Docker_Airflow.git apache-airflow 
 ```
-2. ###(optional) If you are not willing to see examples at boot set parameter 
+2. ### (optional) If you are not willing to see examples at boot set parameter
 ```
-If you are not willing to see examples at boot set parameter AIRFLOW__CORE__LOAD_EXAMPLES: 'true' >> 'false'
+ AIRFLOW__CORE__LOAD_EXAMPLES: 'true' >> 'false'
 ```
 3. Initialize the database services
 ```bash
