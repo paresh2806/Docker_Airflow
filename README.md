@@ -94,7 +94,7 @@ which genrally prints the statement pre-written by user
 
 Over iteraring multiple dag invokes we got certain results    
 
-![airflow task_1 (http://localhost:8080/)](https://github.com/paresh2806/Docker_Airflow/blob/main/images/Capture-3.png)
+![airflow task_1 (http://localhost:8080/)](https://github.com/paresh2806/Docker_Airflow/blob/main/images/Capture-3.PNG)
 
 ## Contributing
 
